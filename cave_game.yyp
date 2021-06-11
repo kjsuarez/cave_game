@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"camera_obj","path":"objects/camera_obj/camera_obj.yy",},"order":1,},
     {"id":{"name":"player_spr","path":"sprites/player_spr/player_spr.yy",},"order":0,},
     {"id":{"name":"test_ground_tiles_spr","path":"sprites/test_ground_tiles_spr/test_ground_tiles_spr.yy",},"order":2,},
     {"id":{"name":"player_obj","path":"objects/player_obj/player_obj.yy",},"order":0,},
@@ -7,6 +8,7 @@
     {"id":{"name":"collision_tiles","path":"tilesets/collision_tiles/collision_tiles.yy",},"order":0,},
     {"id":{"name":"collision_tile_frames_spr","path":"sprites/collision_tile_frames_spr/collision_tile_frames_spr.yy",},"order":1,},
     {"id":{"name":"collision_tiles_spr","path":"sprites/collision_tiles_spr/collision_tiles_spr.yy",},"order":3,},
+    {"id":{"name":"camera_debug_room","path":"rooms/camera_debug_room/camera_debug_room.yy",},"order":1,},
     {"id":{"name":"start_room","path":"rooms/start_room/start_room.yy",},"order":0,},
   ],
   "Options": [
@@ -23,6 +25,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"camera_debug_room","path":"rooms/camera_debug_room/camera_debug_room.yy",},},
     {"roomId":{"name":"start_room","path":"rooms/start_room/start_room.yy",},},
   ],
   "Folders": [

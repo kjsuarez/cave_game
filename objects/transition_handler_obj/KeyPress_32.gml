@@ -5,5 +5,5 @@ target_visible_radius = 0;
 
 } else {
 	transitioning = false;
-	target_visible_radius = original_visible_radius;
+	target_visible_radius = max_radius;
 }

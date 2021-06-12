@@ -3,8 +3,15 @@
 viewport_width = view_get_wport(view_camera[0]);
 viewport_height = view_get_hport(view_camera[0]);
 
-if true{//!surface_exists(surf){
+if !surface_exists(surf){
 	surf = surface_create((viewport_width * camera_obj.zoom) + 2, (viewport_height * camera_obj.zoom) + 2);
+}
+//(viewport_width * camera_obj.zoom) + 2, (viewport_height * camera_obj.zoom) + 2
+if(
+	(surface_get_width(surf) != (viewport_width * camera_obj.zoom) + 2) || 
+	(surface_get_height(surf) != (viewport_height * camera_obj.zoom) + 2)
+){
+	surface_resize(surf, (viewport_width * camera_obj.zoom) + 2, (viewport_height * camera_obj.zoom) + 2)
 }
 
 surface_set_target(surf);

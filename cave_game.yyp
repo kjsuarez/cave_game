@@ -32,8 +32,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"camera_debug_room","path":"rooms/camera_debug_room/camera_debug_room.yy",},},
     {"roomId":{"name":"start_room","path":"rooms/start_room/start_room.yy",},},
+    {"roomId":{"name":"camera_debug_room","path":"rooms/camera_debug_room/camera_debug_room.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

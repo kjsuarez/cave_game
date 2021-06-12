@@ -11,4 +11,4 @@ visible_radius = original_visible_radius;
 target_visible_radius = max_radius;
 transition_spd = 0.05;
 
-//surf = surface_create((viewport_width * camera_obj.zoom) + 2, (viewport_height * camera_obj.zoom) + 2);
+surf = surface_create((viewport_width * camera_obj.zoom) + 2, (viewport_height * camera_obj.zoom) + 2);

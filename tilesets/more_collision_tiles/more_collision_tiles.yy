@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "collision_tile_visual_representation_spr",
-    "path": "sprites/collision_tile_visual_representation_spr/collision_tile_visual_representation_spr.yy",
+    "name": "cave_tile_spr",
+    "path": "sprites/cave_tile_spr/cave_tile_spr.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,

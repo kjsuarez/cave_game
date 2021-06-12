@@ -1,2 +1,3 @@
 /// @description Insert description here
-target_zoom = 1.2;
+
+destination = destination_test_room;

@@ -66,7 +66,12 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"player_obj","path":"objects/player_obj/player_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":224.0,"resourceVersion":"1.0","name":"inst_22077967","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"precise_tile_checker_obj","path":"objects/precise_tile_checker_obj/precise_tile_checker_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":160.0,"resourceVersion":"1.0","name":"inst_59ABF75F","tags":[],"resourceType":"GMRInstance",},
+<<<<<<< HEAD
         {"properties":[],"isDnd":false,"objectId":{"name":"camera_obj","path":"objects/camera_obj/camera_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":288.0,"resourceVersion":"1.0","name":"inst_57B5A6DF","tags":[],"resourceType":"GMRInstance",},
+=======
+        {"properties":[],"isDnd":false,"objectId":{"name":"camera_obj","path":"objects/camera_obj/camera_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":96.0,"resourceVersion":"1.0","name":"inst_277F855F","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"transition_handler_obj","path":"objects/transition_handler_obj/transition_handler_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":96.0,"resourceVersion":"1.0","name":"inst_7C46DA30","tags":[],"resourceType":"GMRInstance",},
+>>>>>>> c1ba20e8625119b9607298d32cf4d83145e3a877
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"more_collision_tiles","path":"tilesets/more_collision_tiles/more_collision_tiles.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":86,"SerialiseHeight":48,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -126,7 +131,8 @@
   "instanceCreationOrder": [
     {"name":"inst_22077967","path":"rooms/start_room/start_room.yy",},
     {"name":"inst_59ABF75F","path":"rooms/start_room/start_room.yy",},
-    {"name":"inst_57B5A6DF","path":"rooms/start_room/start_room.yy",},
+    {"name":"inst_277F855F","path":"rooms/start_room/start_room.yy",},
+    {"name":"inst_7C46DA30","path":"rooms/start_room/start_room.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

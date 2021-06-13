@@ -7,7 +7,12 @@ if(transition_handler_obj.transition_state == "ready"){
 	}
 } else {
 	if(transition_handler_obj.transition_state == "finished"){
-		room_goto(destination);
+		if(global.current_room_count >= global.total_rooms){
+			room_goto(global.final_room);
+		} else {
+			global.current_room_count += 1;
+			room_goto(destination);
+		}
 	}
 
 }

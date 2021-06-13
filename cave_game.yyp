@@ -31,6 +31,7 @@
     {"id":{"name":"test_room_2","path":"rooms/test_room_2/test_room_2.yy",},"order":5,},
     {"id":{"name":"collision_tiles_spr","path":"sprites/collision_tiles_spr/collision_tiles_spr.yy",},"order":3,},
     {"id":{"name":"debug_room","path":"rooms/debug_room/debug_room.yy",},"order":1,},
+    {"id":{"name":"cave_tile_spr","path":"sprites/cave_tile_spr/cave_tile_spr.yy",},"order":7,},
     {"id":{"name":"collision_tile_visual_representation_spr","path":"sprites/collision_tile_visual_representation_spr/collision_tile_visual_representation_spr.yy",},"order":5,},
     {"id":{"name":"start_room","path":"rooms/start_room/start_room.yy",},"order":0,},
   ],
@@ -48,9 +49,11 @@
     "children": [],
   },
   "RoomOrderNodes": [
+
     {"roomId":{"name":"game_start_room","path":"rooms/game_start_room/game_start_room.yy",},},
     {"roomId":{"name":"debug_room","path":"rooms/debug_room/debug_room.yy",},},
     {"roomId":{"name":"start_room","path":"rooms/start_room/start_room.yy",},},
+    {"roomId":{"name":"debug_room","path":"rooms/debug_room/debug_room.yy",},},
     {"roomId":{"name":"destination_test_room","path":"rooms/destination_test_room/destination_test_room.yy",},},
     {"roomId":{"name":"base_room","path":"rooms/base_room/base_room.yy",},},
     {"roomId":{"name":"test_room_1","path":"rooms/test_room_1/test_room_1.yy",},},

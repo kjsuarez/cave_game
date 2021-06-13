@@ -1,6 +1,6 @@
 function experience_gravity(){
 
-    var gravity_velocity = 3;
+    var gravity_velocity = 5;
 	
     var next_y = y + gravity_delta;
     
@@ -8,7 +8,7 @@ function experience_gravity(){
         y = next_y;
 		grounded = false;
     } else {
-        for (var i = floor(next_y); i > 0; i -= 1){
+        for (var i = ceil(next_y); i > y; i -= 1){
             if (!tile_meeting_precise(x, i, "collision_layer")){
                 y = i;
 				grounded = true;
@@ -16,12 +16,14 @@ function experience_gravity(){
                 break;
             }            
         }
-		grounded = true;
-		gravity_delta = .5;
+		if next_y > y {
+			grounded = true;
+			gravity_delta = .5;
+		}
     }
 	
 	if( gravity_delta < gravity_velocity and !grounded ){
-		gravity_delta += .75;
+		gravity_delta += .25;
 	}
     
     

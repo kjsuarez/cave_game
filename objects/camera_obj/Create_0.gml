@@ -15,3 +15,6 @@ original_zoom = .5
 zoom = original_zoom;
 target_zoom = zoom;
 zoom_spd = 0.2;
+
+current_x_position = 0;
+x_offset = 0;

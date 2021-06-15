@@ -5,6 +5,12 @@ var new_x_position = x + frame_velocity * grounded;
 if keyboard_check(vk_shift) and grounded{
 	gravity_delta = -3
 	jump_arc = frame_velocity;
+	jumping = true;
+} else if !grounded and !jumping{
+	jump_arc = frame_velocity / 2;
+} else if grounded{
+	jump_arc = 0;
+	jumping = false;
 }
 
 if !grounded{

@@ -49,7 +49,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-
     {"roomId":{"name":"game_start_room","path":"rooms/game_start_room/game_start_room.yy",},},
     {"roomId":{"name":"debug_room","path":"rooms/debug_room/debug_room.yy",},},
     {"roomId":{"name":"start_room","path":"rooms/start_room/start_room.yy",},},

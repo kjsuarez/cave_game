@@ -1,8 +1,37 @@
 {
-  "rooms": [
-    "test_room_1",
-    "test_room_2",
-    "test_room_3"
+  "zones": [
+    {
+      "id": "well",
+      "rooms": [
+        "test_room_1",
+        "test_room_2",
+        "test_room_3"
+      ]
+    },
+    {
+      "id": "cave",
+      "rooms": [
+        "test_room_1",
+        "test_room_2",
+        "test_room_3"
+      ]
+    },
+    {
+      "id": "city",
+      "rooms": [
+        "test_room_1",
+        "test_room_2",
+        "test_room_3"
+      ]
+    },
+    {
+      "id": "too_deep",
+      "rooms": [
+        "test_room_1",
+        "test_room_2",
+        "test_room_3"
+      ]
+    }
   ]
 
 }

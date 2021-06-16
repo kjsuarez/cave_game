@@ -1,13 +1,21 @@
 experience_gravity()
-var frame_velocity = (1 + keyboard_check(ord("Z"))) * ( 0 + keyboard_check(vk_right) - keyboard_check(vk_left)) ;
+
+var frame_velocity = (1 + (keyboard_check(ord("Z")) && !kneeling)) * ( 0 + keyboard_check(vk_right) - keyboard_check(vk_left)) ;
+if(squeezed){
+	frame_velocity = frame_velocity * squeeze_coefficient;	
+	frame_velocity = (frame_velocity * squeeze_direction) >= 0 ? frame_velocity : 0;
+}
+
 var new_x_position = x + frame_velocity * grounded;
 
-if keyboard_check(vk_shift) and grounded{
+
+
+if keyboard_check(vk_shift) and grounded and !kneeling{
 	gravity_delta = -3
 	jump_arc = frame_velocity;
 	jumping = true;
-} else if !grounded and !jumping{
-	jump_arc = frame_velocity / 2;
+} else if !grounded and gravity_delta > 0{
+	jump_arc = frame_velocity;
 } else if grounded{
 	jump_arc = 0;
 	jumping = false;
@@ -31,5 +39,3 @@ if (tile_meeting_precise(ceil(new_x_position), y, "collision_layer") or tile_mee
 		x = new_x_position;
 }
 
-show_debug_message(tilemap_get_at_pixel(layer_tilemap_get_id("collision_layer"), x - 8, y + 16))
-show_debug_message(tilemap_get_at_pixel(layer_tilemap_get_id("collision_layer"), x + 8, y + 16))

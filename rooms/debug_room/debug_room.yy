@@ -157,8 +157,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "debug rooms",
+    "path": "folders/Rooms/debug rooms.yy",
   },
   "resourceVersion": "1.0",
   "name": "debug_room",

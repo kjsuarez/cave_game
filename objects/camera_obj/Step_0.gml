@@ -10,4 +10,4 @@ x_offset = ((x_offset * -1) + (0.25 * x_offset));
 current_y_position = target.y
 
 // set camera position to follow player
-camera_set_view_pos(view_camera[0], clamp(current_x_position - vw, 0, room_width - vw), clamp(current_y_position - vh, 0, room_height));
+camera_set_view_pos(view_camera[0], clamp(current_x_position - vw, 0, room_width - (vw * 2)), clamp(current_y_position - vh, 0, room_height - (vh * 2)));

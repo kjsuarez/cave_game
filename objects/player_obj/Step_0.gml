@@ -1,6 +1,8 @@
 experience_gravity()
 
-var frame_velocity = (1 + (keyboard_check(ord("Z")) && !kneeling)) * ( 0 + keyboard_check(vk_right) - keyboard_check(vk_left)) ;
+set_character_frame()
+
+frame_velocity = (1 + (keyboard_check(ord("Z")) && !kneeling)) * ( 0 + keyboard_check(vk_right) - keyboard_check(vk_left)) ;
 if(squeezed){
 	frame_velocity = frame_velocity * squeeze_coefficient;	
 	frame_velocity = (frame_velocity * squeeze_direction) >= 0 ? frame_velocity : 0;
@@ -33,3 +35,4 @@ if (tile_meeting_precise(ceil(new_x_position), y, "collision_layer") or tile_mee
 		x = new_x_position;
 }
 
+determine_character_animation_state();

@@ -7,6 +7,8 @@ if(squeezed && squeeze_coefficient == 0 && transition_handler_obj.transition_sta
 		transition_handler_obj.target_visible_radius = new_radius;
 		struggle_counter += 1;
 	} else {
+		global.in_final_room = false;
+		global.in_start_room = true;
 		room_goto(game_start_room);
 	}
 }

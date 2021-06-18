@@ -3,17 +3,15 @@
     {
       "id": "well",
       "rooms": [
-        "test_room_1",
-        "test_room_2",
-        "test_room_3"
+        "zone_2_room_1",
+	"zone_2_room_2",
+	"zone_2_room_3"
       ]
     },
     {
       "id": "cave",
       "rooms": [
-        "test_room_1",
-        "test_room_2",
-        "test_room_3"
+        "zone_2_room_1"
       ]
     },
     {

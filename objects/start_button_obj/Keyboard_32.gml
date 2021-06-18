@@ -4,7 +4,7 @@
 global.total_rooms_per_zone = 3;
 global.total_rooms = 3;
 //global.first_room = test_room_1;
-global.first_room = last_room;
+global.first_room = zone_3_room_2;
 global.final_room = last_room;
 
 global.room_manifest = load_json("room_manifest.json");

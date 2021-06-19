@@ -4,8 +4,8 @@ function set_character_frame(){
 
 	
 		
-	show_debug_message("animation status is: " + animation_state)
-	show_debug_message("current frame: " + string(image_index))
+	//show_debug_message("animation status is: " + animation_state)
+	//show_debug_message("current frame: " + string(image_index))
 	
 	switch (animation_state)
     {

@@ -1,5 +1,21 @@
 /// @description Insert description here
 
+if(!variable_global_exists("initialized_game")){
+global.initialized_game = true;
+global.total_rooms_per_zone = 1;
+global.total_rooms = 1;
+//global.first_room = test_room_1;
+global.first_room = zone_2_room_1;
+global.final_room = last_room;
+global.in_final_room = false;
+global.in_start_room = true;
+
+global.room_manifest = load_json("room_manifest.json");
+global.current_zone_index = 0;
+global.current_room_count = 0;
+}
+
+/*
 if(global.in_start_room){
 	fixed_angle = true;
 	original_zoom = 1
@@ -7,6 +23,9 @@ if(global.in_start_room){
 } else {
 	target = player_obj;
 }
+*/
+target = player_obj;
+
 initial_viewport_width = view_get_wport(view_camera[0]);
 initial_viewport_height = view_get_hport(view_camera[0]);
 
@@ -19,12 +38,15 @@ initial_camera_height = camera_get_view_height(view_camera[0]);
 //desired_camer_height = current_camer_height;
 
 show_debug_message("In start room? " + string(global.in_start_room) )
+/*
 if(global.in_start_room){
 	fixed_angle = true;
 	original_zoom = 1
 } else {
 	original_zoom = .6
 }
+*/
+original_zoom = .6
 
 zoom = original_zoom;
 target_zoom = zoom;

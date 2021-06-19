@@ -9,6 +9,8 @@ if(squeezed && squeeze_coefficient == 0 && transition_handler_obj.transition_sta
 	} else {
 		global.in_final_room = false;
 		global.in_start_room = true;
-		room_goto(game_start_room);
+		audio_stop_all();
+		room_goto(alt_game_start_room);
+		
 	}
 }

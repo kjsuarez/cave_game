@@ -1,23 +1,30 @@
 function experience_gravity(){
 
     var gravity_velocity = 5;
-
-    var next_y = y + gravity_velocity;
+	
+    var next_y = y + gravity_delta;
     
-    if (!tile_meeting_precise(x, next_y, "collision_layer") ){
+    if (!tile_meeting_precise(x, ceil(next_y), "collision_layer") ){
         y = next_y;
+		grounded = false;
     } else {
-        
-        if(tile_meeting_precise(x, next_y, "collision_layer")){
-            for (var i = next_y; i > 0; i -= 1){
-                if (!tile_meeting_precise(x, i, "collision_layer")){
-                
-                    y = i;
-                    break;
-                }            
-            }
+        for (var i = ceil(next_y); i > y; i -= 1){
+            if (!tile_meeting_precise(x, i, "collision_layer")){
+                y = i;
+				grounded = true;
+				gravity_delta = .5;
+                break;
+            }            
         }
+		if next_y > y {
+			grounded = true;
+			gravity_delta = .5;
+		}
     }
+	
+	if( gravity_delta < gravity_velocity and !grounded ){
+		gravity_delta += .25;
+	}
     
     
     

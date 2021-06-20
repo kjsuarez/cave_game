@@ -3,8 +3,9 @@
     {
       "id": "well",
       "rooms": [
-        "zone_3_room_1",
-        "zone_3_room_2"
+        "zone_4_room_1",
+        "zone_4_room_2",
+        "zone_4_room_3"
       ]
     },
     {
@@ -25,9 +26,9 @@
     {
       "id": "too_deep",
       "rooms": [
-        "zone_2_room_1",
-        "zone_2_room_2",
-        "zone_2_room_3"
+        "zone_4_room_1",
+        "zone_4_room_2",
+        "zone_4_room_3"
       ]
     }
   ]

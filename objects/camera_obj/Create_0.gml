@@ -2,10 +2,11 @@
 
 if(!variable_global_exists("initialized_game")){
 global.initialized_game = true;
-global.total_rooms_per_zone = 1;
+global.total_rooms_per_zone = 3;
 global.total_rooms = 1;
 //global.first_room = test_room_1;
-global.first_room = first_room;
+//global.first_room = first_room;
+global.first_room = zone_4_room_2;
 global.final_room = last_room;
 global.in_final_room = false;
 global.in_start_room = true;

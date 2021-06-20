@@ -3,6 +3,7 @@
     {"id":{"name":"player_falling","path":"sprites/player_falling/player_falling.yy",},"order":18,},
     {"id":{"name":"camera_obj","path":"objects/camera_obj/camera_obj.yy",},"order":1,},
     {"id":{"name":"fixed_angle_target_obj","path":"objects/fixed_angle_target_obj/fixed_angle_target_obj.yy",},"order":9,},
+    {"id":{"name":"first_room","path":"rooms/first_room/first_room.yy",},"order":12,},
     {"id":{"name":"transition_handler_obj","path":"objects/transition_handler_obj/transition_handler_obj.yy",},"order":3,},
     {"id":{"name":"collision_tile_v2_frames_spr","path":"sprites/collision_tile_v2_frames_spr/collision_tile_v2_frames_spr.yy",},"order":21,},
     {"id":{"name":"start_button_spr","path":"sprites/start_button_spr/start_button_spr.yy",},"order":11,},
@@ -99,6 +100,7 @@
     {"roomId":{"name":"zone_2_room_3","path":"rooms/zone_2_room_3/zone_2_room_3.yy",},},
     {"roomId":{"name":"zone_3_room_1","path":"rooms/zone_3_room_1/zone_3_room_1.yy",},},
     {"roomId":{"name":"zone_3_room_2","path":"rooms/zone_3_room_2/zone_3_room_2.yy",},},
+    {"roomId":{"name":"first_room","path":"rooms/first_room/first_room.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

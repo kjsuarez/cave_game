@@ -18,6 +18,7 @@
     {"id":{"name":"zone_3_music_snd","path":"sounds/zone_3_music_snd/zone_3_music_snd.yy",},"order":4,},
     {"id":{"name":"zone_1_music_snd","path":"sounds/zone_1_music_snd/zone_1_music_snd.yy",},"order":2,},
     {"id":{"name":"tile_meeting_precise","path":"scripts/tile_meeting_precise/tile_meeting_precise.yy",},"order":2,},
+    {"id":{"name":"zone_4_background","path":"sprites/zone_4_background/zone_4_background.yy",},"order":23,},
     {"id":{"name":"last_room","path":"rooms/last_room/last_room.yy",},"order":10,},
     {"id":{"name":"squeeze_obj","path":"objects/squeeze_obj/squeeze_obj.yy",},"order":6,},
     {"id":{"name":"zone_3_room_2","path":"rooms/zone_3_room_2/zone_3_room_2.yy",},"order":4,},

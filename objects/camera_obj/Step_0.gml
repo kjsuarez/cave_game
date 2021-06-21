@@ -1,4 +1,13 @@
 /// @description Insert description here
+
+if(room == alt_game_start_room){
+	
+	show_debug_message(player_obj.y)
+	if(player_obj.y > 200){
+		target_zoom = 0.6;
+	}
+}
+
 zoom += (target_zoom - zoom) * zoom_spd;
 camera_set_view_size(view_camera[0], initial_camera_width * zoom, initial_camera_height * zoom)
 

@@ -30,7 +30,12 @@ initial_camera_height = camera_get_view_height(view_camera[0]);
 
 show_debug_message("In start room? " + string(global.in_start_room) )
 
-original_zoom = .6
+if(room == alt_game_start_room){
+	original_zoom = 1
+} else {
+	original_zoom = .6
+}
+
 
 zoom = original_zoom;
 target_zoom = zoom;

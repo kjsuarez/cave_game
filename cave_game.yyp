@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"zone_4_room_4","path":"rooms/zone_4_room_4/zone_4_room_4.yy",},"order":11,},
     {"id":{"name":"player_falling","path":"sprites/player_falling/player_falling.yy",},"order":18,},
     {"id":{"name":"camera_obj","path":"objects/camera_obj/camera_obj.yy",},"order":1,},
     {"id":{"name":"first_room","path":"rooms/first_room/first_room.yy",},"order":12,},
@@ -8,6 +9,7 @@
     {"id":{"name":"start_button_spr","path":"sprites/start_button_spr/start_button_spr.yy",},"order":11,},
     {"id":{"name":"test_player_spr","path":"sprites/test_player_spr/test_player_spr.yy",},"order":0,},
     {"id":{"name":"zone_4_room_3","path":"rooms/zone_4_room_3/zone_4_room_3.yy",},"order":7,},
+    {"id":{"name":"borrowed_sky_background_spr","path":"sprites/borrowed_sky_background_spr/borrowed_sky_background_spr.yy",},"order":24,},
     {"id":{"name":"zone_2_music_snd","path":"sounds/zone_2_music_snd/zone_2_music_snd.yy",},"order":3,},
     {"id":{"name":"test_room_1","path":"rooms/test_room_1/test_room_1.yy",},"order":0,},
     {"id":{"name":"player_crawling","path":"sprites/player_crawling/player_crawling.yy",},"order":19,},
@@ -57,6 +59,7 @@
     {"id":{"name":"test_background_2_spr","path":"sprites/test_background_2_spr/test_background_2_spr.yy",},"order":9,},
     {"id":{"name":"player_idle","path":"sprites/player_idle/player_idle.yy",},"order":15,},
     {"id":{"name":"test_room_2","path":"rooms/test_room_2/test_room_2.yy",},"order":1,},
+    {"id":{"name":"zone_3_room_5","path":"rooms/zone_3_room_5/zone_3_room_5.yy",},"order":12,},
     {"id":{"name":"zone_3_room_4","path":"rooms/zone_3_room_4/zone_3_room_4.yy",},"order":9,},
     {"id":{"name":"zone_3_room_3","path":"rooms/zone_3_room_3/zone_3_room_3.yy",},"order":8,},
     {"id":{"name":"zone_2_room_3","path":"rooms/zone_2_room_3/zone_2_room_3.yy",},"order":2,},
@@ -98,6 +101,8 @@
     {"roomId":{"name":"zone_3_room_3","path":"rooms/zone_3_room_3/zone_3_room_3.yy",},},
     {"roomId":{"name":"zone_3_room_4","path":"rooms/zone_3_room_4/zone_3_room_4.yy",},},
     {"roomId":{"name":"zone_2_room_4","path":"rooms/zone_2_room_4/zone_2_room_4.yy",},},
+    {"roomId":{"name":"zone_4_room_4","path":"rooms/zone_4_room_4/zone_4_room_4.yy",},},
+    {"roomId":{"name":"zone_3_room_5","path":"rooms/zone_3_room_5/zone_3_room_5.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

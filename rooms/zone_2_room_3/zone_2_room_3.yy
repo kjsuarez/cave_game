@@ -16,7 +16,7 @@
     {"inherit":true,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"visul_effects_layer","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"visul_effects_layer","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"zone_2_visible_tiles","path":"tilesets/zone_2_visible_tiles/zone_2_visible_tiles.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":20,"SerialiseHeight":30,"TileSerialiseData":[
 1,1,1,1,1,1,1,1,2147483648,2147483648,2147483648,2147483648,1,1,1,1,1,1,1,1,
 1,1,1,1,1,1,1,1,2147483648,2147483648,2147483648,2147483648,1,1,1,1,1,1,1,1,

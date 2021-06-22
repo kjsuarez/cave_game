@@ -1,26 +1,22 @@
 {
   "zones": [
     {
-      "id": "well",
-      "rooms": [
-        "zone_4_room_1",
-        "zone_4_room_2",
-        "zone_4_room_3"
-      ]
-    },
-    {
       "id": "cave",
       "rooms": [
         "zone_2_room_1",
         "zone_2_room_2",
-        "zone_2_room_3"
+        "zone_2_room_3",
+        "zone_2_room_4"
       ]
     },
     {
       "id": "city",
       "rooms": [
         "zone_3_room_1",
-        "zone_3_room_2"
+        "zone_3_room_2",
+        "zone_3_room_3",
+        "zone_3_room_4",
+        "zone_3_room_5"
       ]
     },
     {
@@ -28,7 +24,8 @@
       "rooms": [
         "zone_4_room_1",
         "zone_4_room_2",
-        "zone_4_room_3"
+        "zone_4_room_3",
+        "zone_4_room_4"
       ]
     }
   ]

@@ -66,6 +66,9 @@
     {"id":{"name":"cave_tile_spr","path":"sprites/cave_tile_spr/cave_tile_spr.yy",},"order":8,},
     {"id":{"name":"player_squeezed","path":"sprites/player_squeezed/player_squeezed.yy",},"order":20,},
     {"id":{"name":"collision_tile_visual_representation_spr","path":"sprites/collision_tile_visual_representation_spr/collision_tile_visual_representation_spr.yy",},"order":5,},
+    {"id":{"name":"zone_3_room_5","path":"rooms/zone_3_room_5/zone_3_room_5.yy",},"order":12,},
+    {"id":{"name":"zone_3_room_4","path":"rooms/zone_3_room_4/zone_3_room_4.yy",},"order":9,},
+    {"id":{"name":"zone_3_room_3","path":"rooms/zone_3_room_3/zone_3_room_3.yy",},"order":8,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -101,7 +104,6 @@
     {"roomId":{"name":"zone_4_room_2","path":"rooms/zone_4_room_2/zone_4_room_2.yy",},},
     {"roomId":{"name":"zone_4_room_3","path":"rooms/zone_4_room_3/zone_4_room_3.yy",},},
     {"roomId":{"name":"zone_4_room_4","path":"rooms/zone_4_room_4/zone_4_room_4.yy",},},
-    {"roomId":{"name":"","path":"",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

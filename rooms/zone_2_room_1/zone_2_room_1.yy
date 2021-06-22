@@ -120,8 +120,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "liminal rooms",
-    "path": "folders/Rooms/liminal rooms.yy",
+    "name": "cave_game",
+    "path": "cave_game.yyp",
   },
   "resourceVersion": "1.0",
   "name": "zone_2_room_1",

@@ -1,20 +1,11 @@
 /// @description Insert description here
 start_track = start_screen_music_snd;
 end_track = zone_4_music_snd;
-/*
+
 zone_tracks = [
 	zone_1_music_snd, 
 	zone_2_music_snd, 
 	zone_3_music_snd,
-	zone_4_music_snd
-];
-*/
-
-
-zone_tracks = [
-	zone_1_music_snd, 
-	zone_3_music_snd, 
-	zone_1_music_snd,
 	zone_4_music_snd
 ];
 

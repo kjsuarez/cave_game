@@ -83,7 +83,6 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"alt_game_start_room","path":"rooms/alt_game_start_room/alt_game_start_room.yy",},},
     {"roomId":{"name":"zone_2_room_1","path":"rooms/zone_2_room_1/zone_2_room_1.yy",},},
-    {"roomId":{"name":"","path":"",},},
     {"roomId":{"name":"base_room","path":"rooms/base_room/base_room.yy",},},
     {"roomId":{"name":"test_room_1","path":"rooms/test_room_1/test_room_1.yy",},},
     {"roomId":{"name":"test_room_2","path":"rooms/test_room_2/test_room_2.yy",},},
@@ -97,11 +96,8 @@
     {"roomId":{"name":"zone_4_room_1","path":"rooms/zone_4_room_1/zone_4_room_1.yy",},},
     {"roomId":{"name":"zone_4_room_2","path":"rooms/zone_4_room_2/zone_4_room_2.yy",},},
     {"roomId":{"name":"zone_4_room_3","path":"rooms/zone_4_room_3/zone_4_room_3.yy",},},
-    {"roomId":{"name":"","path":"",},},
-    {"roomId":{"name":"","path":"",},},
     {"roomId":{"name":"zone_2_room_4","path":"rooms/zone_2_room_4/zone_2_room_4.yy",},},
     {"roomId":{"name":"zone_4_room_4","path":"rooms/zone_4_room_4/zone_4_room_4.yy",},},
-    {"roomId":{"name":"","path":"",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

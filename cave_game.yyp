@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"zone_4_room_4","path":"rooms/zone_4_room_4/zone_4_room_4.yy",},"order":10,},
+    {"id":{"name":"zone_2_background","path":"sprites/zone_2_background/zone_2_background.yy",},"order":26,},
     {"id":{"name":"player_falling","path":"sprites/player_falling/player_falling.yy",},"order":18,},
     {"id":{"name":"camera_obj","path":"objects/camera_obj/camera_obj.yy",},"order":1,},
     {"id":{"name":"first_room","path":"rooms/first_room/first_room.yy",},"order":12,},
@@ -61,6 +62,7 @@
     {"id":{"name":"test_background_2_spr","path":"sprites/test_background_2_spr/test_background_2_spr.yy",},"order":9,},
     {"id":{"name":"player_idle","path":"sprites/player_idle/player_idle.yy",},"order":15,},
     {"id":{"name":"test_room_2","path":"rooms/test_room_2/test_room_2.yy",},"order":1,},
+    {"id":{"name":"zone_2_background_big","path":"sprites/zone_2_background_big/zone_2_background_big.yy",},"order":27,},
     {"id":{"name":"zone_2_room_3","path":"rooms/zone_2_room_3/zone_2_room_3.yy",},"order":1,},
     {"id":{"name":"player_walking","path":"sprites/player_walking/player_walking.yy",},"order":16,},
     {"id":{"name":"cave_tile_spr","path":"sprites/cave_tile_spr/cave_tile_spr.yy",},"order":8,},
